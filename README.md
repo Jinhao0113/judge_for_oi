@@ -91,7 +91,7 @@ $ judge_for_oi p jdg "保存题目目录" all
 测试指定选手
 
 ```bash
-$ judge_for_oi p jud "保存题目目录" "somebody1" "somebody2" ...
+$ judge_for_oi p jdg "保存题目目录" "somebody1" "somebody2" ...
 ```
 
 #### 比赛
