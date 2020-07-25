@@ -146,7 +146,7 @@ $ judge_for_oi c new "保存比赛目录"
 
 ##### 解释
 
-`config.jfoc`存放的是题目配置，详细语法见[这里](https://github.com/lz2019hjh/judge_for_oi/doc/grammar_for_jfoc.md)
+`config.jfoc`存放的是题目配置，详细语法见[这里](https://github.com/lz2019hjh/judge_for_oi/blob/master/doc/grammar_for_jfoc.md)
 
 `data`放数据
 
