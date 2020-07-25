@@ -1,0 +1,4 @@
+title "new problem"
+judge "jl"
+run -std=c++11 -O2 -lm
+result md y y
