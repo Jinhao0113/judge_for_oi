@@ -58,7 +58,7 @@ $ judge_for_oi p new "保存题目目录"
 
 ##### 解释
 
-`config.jfop`存放的是题目配置，详细语法见[这里](https://github.com/lz2019hjh/judge_for_oi/doc/grammar_for_jfop.md)
+`config.jfop`存放的是题目配置，详细语法见[这里](https://github.com/lz2019hjh/judge_for_oi/blob/master/doc/grammar_for_jfop.md)
 
 `data`放数据
 
