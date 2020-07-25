@@ -186,7 +186,7 @@ $ judge_for_oi c jud "保存题目目录" "somebody1" "somebody2" ...
 
 bash输入
 ```bash
-$ git clone https://lz2019hjh/judge_for_oi --depth=1 ~/.judge_for_oi
+$ git clone https://github.com/lz2019hjh/judge_for_oi --depth=1 ~/.judge_for_oi
 $./install.sh
 ```
 
