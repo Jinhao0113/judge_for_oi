@@ -41,6 +41,7 @@ $ judge_for_oi p new "保存题目目录"
 ```
 \- 保存题目目录
     \- config.jfop
+    (\- judge.cpp)
     \- data
         \- test1.in
         \- test1.out
@@ -111,6 +112,7 @@ $ judge_for_oi c new "保存比赛目录"
     \- prob
         \- prob_A
             \- config.jfop
+            (\- judge.cpp)
             \- data
                 \- test1.in
                 \- test1.out
@@ -119,6 +121,7 @@ $ judge_for_oi c new "保存比赛目录"
                 ... 
         \- prob_B
             \- config.jfop
+            (\- judge.cpp)
             \- data
                 \- test1.in
                 \- test1.out
