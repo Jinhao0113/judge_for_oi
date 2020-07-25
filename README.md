@@ -179,7 +179,7 @@ $ judge_for_oi c jdg "保存题目目录" all
 测试指定选手
 
 ```bash
-$ judge_for_oi c jud "保存题目目录" "somebody1" "somebody2" ...
+$ judge_for_oi c jdg "保存题目目录" "somebody1" "somebody2" ...
 ```
 
 ### 构建/下载
