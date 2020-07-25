@@ -95,7 +95,95 @@ $ judge_for_oi p jud "保存题目目录" "somebody1" "somebody2" ...
 
 #### 比赛
 
-```bash 
-$ judge_for_oi c new "保存比赛目录"
+比赛测试及数据存储，还有提交者代码。
+
+##### 新建
+
+```bash
+$ judge_for_oi c new "保存比赛目录" 
+```
+
+##### 结构
+
+```
+\- 保存比赛目录
+    \- config.jfoc
+    \- prob
+        \- prob_A
+            \- config.jfop
+            \- data
+                \- test1.in
+                \- test1.out
+                \- test2.in
+                \- test2.out
+                ... 
+        \- prob_B
+            \- config.jfop
+            \- data
+                \- test1.in
+                \- test1.out
+                \- test2.in
+                \- test2.out
+                ... 
+    \- src
+        \- somebody1
+            \- prob_A
+                \- src_A.cpp
+            \- prob_B
+                \- src_B.cpp
+            ...
+        \- somebody2
+            \- prob_A
+                \- src_A.cpp
+            \- prob_B
+                \- src_B.cpp
+            ...
+        ...
+```
+
+##### 解释
+
+`config.jfoc`存放的是题目配置，详细语法见[这里](https://github.com/lz2019hjh/judge_for_oi/doc/grammar_for_jfoc.md)
+
+`data`放数据
+
+`src`放的是代码
+
+目录下的`somebody1`,`somebody2`是提交者
+
+`prob_A/src_A.cpp`,`prob_B/src_B.cpp`是源代码
+
+##### 提交
+
+```bash
+$ judge_for_oi c sbm "选手1目录" "选手2目录"
+```
+
+如出现选手名称已存在，将会提醒，如下
+
+```
+选手已存在，替换c并回车,退出提交回车
+```
+
+##### 测试
+
+测试所有选手
+
+```bash
+$ judge_for_oi c jdg "保存题目目录" all 
+```
+
+测试指定选手
+
+```bash
+$ judge_for_oi c jud "保存题目目录" "somebody1" "somebody2" ...
+```
+
+### 构建/下载
+
+bash输入
+```bash
+$ git clone https://lz2019hjh/judge_for_oi --depth=1 ~/.judge_for_oi
+$./install.sh
 ```
 
