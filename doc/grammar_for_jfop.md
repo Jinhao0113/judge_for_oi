@@ -33,17 +33,21 @@ judge judge.cpp
 ### 运行
 
 ```
-run 编译选项
+run 编译指令
 ```
 
-编译选项就是编译时的附加选项
+```
+run g++ $test.cpp -o $test
+```
+
+<!-- 编译选项就是编译时的附加选项
 
 * `-O2` O2优化
 * `-std=c++11` c++11编译
 * `-std=c++17` c++17编译
 * ...
 
-详细见[这里](https://www.cnblogs.com/weiyinfu/p/11048768.html)
+详细见[这里](https://www.cnblogs.com/weiyinfu/p/11048768.html) -->
 
 ### 测试点
 
